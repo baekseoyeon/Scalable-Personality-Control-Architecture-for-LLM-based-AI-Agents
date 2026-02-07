@@ -8,7 +8,7 @@ Personality Vector: Modulating Personality of Large Language Models by Model Mer
 
 ### Personality Vector Project
 <p align="center">
-  <img src="image/figure1_git.png" width="520" alt="Personality Vector Merging Architecture" />
+  <img src="image/figure1_git.png" width="500" alt="Personality Vector Merging Architecture" />
 </p>
 
 > 프롬프트가 아닌 모델 파라미터 차이(Personality Vector)로 성격을 정의하고, α 스케일링 + 모델 병합으로 성격 강도/조합을 연속적으로 제어합니다.  
@@ -42,6 +42,9 @@ Approach
 
 ## 3. 시스템 구조
 Architecture
+<p align="center">
+  <img src="image/figure2_git.png" width="600" alt="Personality Vector Merging Architecture" />
+</p
 
 - Base Model(θ_base) + Personality-tuned Model(θ_p)  
   Base model plus personality-specialized fine-tuned models.
