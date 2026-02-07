@@ -58,14 +58,10 @@ Architecture
 ## 4. 리포 구조
 Structure
 
-- `model_merge/` : 병합 파이프라인 및 merging methods  
-  Merging pipeline and merging methods.
+- `model_merge/` : 병합 파이프라인 및 merging methods
 - `interview/` : 프롬프트/테스트 스크립트(성격 발현 확인용)  
-  Interview prompts and evaluation scripts (personality elicitation).
 - `image/` : 아키텍처 이미지  
-  Architecture figures.
-- `docs/` : 기획 문서(문제-해결-검증)  
-  Product-style docs (problem-solution-validation).
+- `docs/` : 기획 문서
 
 ---
 
